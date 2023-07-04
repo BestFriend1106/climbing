@@ -28,9 +28,9 @@ var vFOV = THREE.MathUtils.degToRad( camera.fov ); // convert vertical fov to ra
 var height = 2 * Math.tan( vFOV / 2 ) * 100; // visible height
 var width = height * camera.aspect;           // visible width
 // var width = window.innerWidth, height = window.innerHeight;
-var grid = new THREE.GridHelper( 20, 20, 0x888888, 0x888888 );
-            grid.position.set( 0, - 1.1, 0 );
-            scene.add( grid );
+// var grid = new THREE.GridHelper( 20, 20, 0x888888, 0x888888 );
+//             grid.position.set( 0, - 1.1, 0 );
+//             scene.add( grid );
 
 const textureLoader = new THREE.TextureLoader();
 const texture = textureLoader.load(map_img);
